@@ -16,3 +16,6 @@ Samples == helloworld // programs/scripts
 
 # MUST READ
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+
+# YouTube Recordings
+[Part 1](https://www.youtube.com/watch?v=5d1LsHf8E-I&feature=youtu.be)
