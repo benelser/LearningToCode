@@ -1,4 +1,4 @@
-# Learning to learn any language 
+# Learning to learn any language (CLOVERS)
 
 - Comparators == Logic 
 - Lopping == for / while / foreach
@@ -18,4 +18,4 @@
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
 # YouTube Recordings
-[Part 1](https://www.youtube.com/watch?v=5d1LsHf8E-I&feature=youtu.be)
+[Part 1 - CLOVERS](https://www.youtube.com/watch?v=5d1LsHf8E-I&feature=youtu.be)
