@@ -18,8 +18,8 @@ func sayHello(){
 or it can have multiple statements:
 ```go
 func sayHelloTwice(){
-   fmt.Printf("Hello there you!!!") // This is 1 statement
-   fmt.Printf("Hello there you!!!") // This is 1 statement
+   fmt.Printf("Hello there you!!!") // This is the first statement
+   fmt.Printf("Hello there you!!!") // This is the second statement
 }
 ```
 You get the point.
