@@ -43,7 +43,7 @@ sayHello("Benjamin")
 ```
 
 # Params and Args Succunitly
-To make sense of those two definitions think of it this way: *We write our functions to accept params. When using those functions we pass them args."*
+To make sense of those two definitions think of it this way: *We write our functions to accept params. When using those functions we pass them args.*
 
 # YouTube Recording
 [Part 2 - Functions]()
