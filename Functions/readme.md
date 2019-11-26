@@ -42,7 +42,7 @@ A go function being used and passing arguments to satisfy params
 sayHello("Benjamin")
 ```
 
-# Params and Args Succunitly 
+# Params and Args Succunitly
 *"To make sense of those two definitions think of it this way: *We write our functions to accept params. When using those functions we pass them args."*
 
 # YouTube Recording
