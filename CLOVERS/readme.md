@@ -1,4 +1,4 @@
-# Learning to learn any language (CLOVERS)
+# Learning to learn any language with (CLOVERS)
 
 - Comparators == Logic 
 - Lopping == for / while / foreach
@@ -9,13 +9,14 @@
 - Samples == helloworld // programs/scripts 
 
 # How did we get to where we are
-- We installed Vs Code
+- We installed vs Code
 - We installed python3
 - We installed pwsh/powershell on MAC
 - We installed Go
 
 # MUST READ
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+[The Ten Rules of a Zen Programmer](https://www.zenprogrammer.org/en/10-rules-of-a-zen-programmer.html)
 
-# YouTube Recordings
+# YouTube Recording
 [Part 1 - CLOVERS](https://www.youtube.com/watch?v=5d1LsHf8E-I&feature=youtu.be)
