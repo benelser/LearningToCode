@@ -16,7 +16,7 @@ This short paper is a great place to start for anyone thinking about learning to
 
 # The Greatest Challenge
 *"The greatest challenge to any thinker (programmer) is stating the problem in a way that will allow a solution."*
-    — Bertrand Russell
+<br />  — Bertrand Russell
 
 # Table of Contents
 1. CLOVERS 
