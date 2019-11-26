@@ -12,14 +12,14 @@ that is a statement. A single line of code that does something.
 A function can have just one statement or hundreads of statements (not recommended). A function in go would look something like:
 ```go
 func sayHello(){
-   fmt.Printf("Hello there you!!!") 
+   fmt.Printf("Hello there you!!!") // This is a 1 statement
 }
 ```
 or it can have multiple statements:
 ```go
 func sayHelloTwice(){
-   fmt.Printf("Hello there you!!!") 
-   fmt.Printf("Hello there you!!!") 
+   fmt.Printf("Hello there you!!!") // This is a 1 statement
+   fmt.Printf("Hello there you!!!") // This is a 1 statement
 }
 ```
 You get the point.
