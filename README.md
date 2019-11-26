@@ -15,7 +15,7 @@ This short paper is a great place to start for anyone thinking about learning to
     — Herbert Mayer
 
 # The Greatest Challenge
-*"The greatest challenge to any thinker is stating the problem in a way that will allow a solution."*
+*"The greatest challenge to any thinker (programmer) is stating the problem in a way that will allow a solution."*
     — Bertrand Russell
 
 # Table of Contents
