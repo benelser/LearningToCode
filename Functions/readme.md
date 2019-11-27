@@ -49,4 +49,4 @@ sayHello("Benjamin")
 To make sense of those two definitions think of it this way: *We write our functions to accept params. When using those functions we pass them args.*
 
 # YouTube Recording
-[Part 2 - Functions]()
+[Part 2 - Functions](https://www.youtube.com/watch?v=9tppHGudMBo&feature=youtu.be)
