@@ -1,4 +1,7 @@
 # Functions
+*“The first rule of functions is that they should be small. The second rule of functions is that they should be smaller than that.”*
+<br />— Uncle Bob 
+
 Defined: *A function is block of organized, reusable code that is used to perform single, related action. Functions provide better modularity for your application and high degree of code reusing.*
 
 The way I define it: functions are grouping of statements that are parameterized to be reused over and over again. 
