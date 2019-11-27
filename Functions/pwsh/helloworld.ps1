@@ -1,27 +1,32 @@
-[string]$name = "Benjamin"
-[int]$age = 32
+function SayHello {
+    param (
+        [string]$Name,
+        [int]$Age
+    )
 
-if ($age -lt 21) {
+    if ($Age -lt 21) {
 
-    Write-Host "Hello $name. You are $age old! You cannot drink yet friend!" -ForegroundColor Yellow
+        Write-Host "Hello $Name. You are $Age old! You cannot drink yet friend!" -ForegroundColor Yellow
+    }
+    else{
+        Write-Host "You are really old! Please drink responsibly"
+    }
+
 }
-if ($name -eq "Benjamin") {
-    Write-Host "$name == Benjamin"
-}
-Write-Host "You are really old! Please drink responsibly"
 
-# Start of looping code
-for ($i = 0; $i -lt 10; $i++) {
+function Get-Age {
+    param (
+        [int]$BirthYear
+    )
     
-    Write-Host "Count of i is: $i"
+    $currentYear = ([DateTime]::Now).Year
+    return $currentYear - $BirthYear
 }
 
-foreach ($number in 1..10) {
-    Write-Host "Count of number is: $number"
-}
+$bensAge = Get-Age -BirthYear 1987
+$bobsAge = Get-Age -BirthYear 1995
+$andrewsAge = Get-Age -BirthYear 2010
 
-$counter = 0
-while ($counter -le 10) {
-    Write-Host "Count of counter is: $counter"
-    $counter += 2
-}
+SayHello -Name "Benjamin" -Age $bensAge
+SayHello -Name "Bob" -Age $bobsAge
+SayHello -Name "Andrew" -Age $andrewsAge

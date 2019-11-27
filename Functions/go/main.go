@@ -2,41 +2,30 @@ package main
 
 import (
 	"fmt"
-	"strings"
+	"time"
 )
 
 func main() {
 
-	var age int
-	var name string
-	age = 20
-	name = "Benjamin"
-	var yourName string = "Dan"
+	sayHello("Benjamin", getAge(1987))
+	sayHello("Bob", getAge(2010))
+	sayHello("Andrew", getAge(1999))
 
-	if age < 21 && strings.ToLower(name) == "benjamin" {
+}
+
+func sayHello(name string, age int) {
+
+	if age < 21 {
 		fmt.Printf("Hey there %s. You are %v years old! You cannot drink\n", name, age)
+	} else {
+		fmt.Printf("Hey there %s. You are %v years old! Enjoy your DRANK!!!\n", name, age)
 	}
+}
 
-	fmt.Println(yourName + " is your name")
+func getAge(BirthYear int) (age int) {
 
-	// Begin of loops
-	for index := 0; index < 5; index++ {
+	time := time.Now()
+	currentYear := time.Year()
+	return currentYear - BirthYear
 
-		fmt.Printf("Count of index is : %v\n", index)
-	}
-
-	numbers := [5]int{1, 2, 3, 4, 5}
-	for _, num := range numbers {
-		fmt.Println(num)
-	}
-
-	// While loop
-	counter := 0
-	for {
-		if counter == 10 {
-			break
-		}
-		fmt.Println(counter)
-		counter += 2
-	}
 }

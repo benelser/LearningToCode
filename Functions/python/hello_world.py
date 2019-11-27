@@ -1,15 +1,19 @@
-age = 20
-name = "benjamin"
+import datetime as dt
 
-if age < 21:
-    print("Hello there %s! You are not old enough to drink\nYou are only %d years old!" % (name, age))
+def main():
+    sayHello("Benjamin", getAge(1987))
+    sayHello("Bob", getAge(2010))
+    sayHello("Andrew", getAge(2005))
+    
 
-# Loops start here
-numbers = [1,2,3,4,5]
-for num in numbers:
-    print(num)
+def sayHello(name: str, age: int):
+    if age < 21:
+        print("Hello there %s! You are not old enough to drink\nYou are only %d years old!" % (name, age))
+    else:
+         print("Hello there %s! You are %d years old! Emjoy your DRANK!" % (name, age))
 
-counter = 0
-while counter != 10:
-    print("Counter is: %d" % counter)
-    counter += 2
+def getAge(birthYear: int) -> int:
+    current_year = dt.datetime.now().year
+    return current_year - birthYear
+    
+main()

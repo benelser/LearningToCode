@@ -1,28 +1,34 @@
 #!/bin/bash
-NAME="Benjamin"
-AGE=20
 
-# Must have spaes on both sides of expression
-if [ "$AGE" -lt 21 ];
-then
-    echo "Hello there $NAME. You are $AGE years old"
-fi
+function sayHello()
+{
+    # Setting up local vars from args
+    local NAME="$1" AGE="$2"
 
-# Loops start here
-NUMBERS=(1 2 3 4 5 6)
-for((i=0;i<${#NUMBERS[@]};i++));
-do
-    echo "${NUMBERS[$i]}"
-done
+    # Must have spaes on both sides of expression
+    if [ "$AGE" -lt 21 ];
+    then
+        echo "Hello there $NAME. You are $AGE years old. You cannot drink."
+    else
+        echo "Enjoy your DRANK young fella!!!"
+    fi
+        
+}
 
-for NUM in "${NUMBERS[@]}"
-do
-    echo "The value of num is: $NUM"
-done
+function getAge()
+{
+    local BIRTHDATE="$1"
+    # Commands that return data need to be wrapped in "$(command)" format
+    CURRENTDATE="$(date | awk -F ' ' '{print $6}')"
 
-COUNTER=0
-while [ "$COUNTER" -lt 10 ] 
-do
-    echo "Counter is less than 10"
-    COUNTER=$((COUNTER+=2))
-done
+    # Arithmetic in POSIX shells is done with $ and double parentheses (( )):
+    returnAGE="$(($CURRENTDATE-$BIRTHDATE))"
+    
+}
+
+getAge 1987
+sayHello "Benjmin" $returnAGE
+getAge 2010
+sayHello "Bob" $returnAGE
+getAge 2005
+sayHello "Andrew" $returnAGE
