@@ -24,5 +24,5 @@ This short paper is a great place to start for anyone thinking about learning to
     * [CLOVERS Code](./CLOVERS)
 
 2. Functions
-    * [Functions YouTube Recording]()
+    * [Functions YouTube Recording](https://www.youtube.com/watch?v=9tppHGudMBo&feature=youtu.be)
     * [Functions Code](./Functions)
