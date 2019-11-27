@@ -6,7 +6,7 @@ Defined: *A function is block of organized, reusable code that is used to perfor
 
 The way I define it: functions are grouping of statements that are parameterized to be reused over and over again. 
 
-I guess we should define statement first. A statement is:  command that the programmer gives to the computer.* Like earlier in [CLOVERS](../CLOVERS)
+I guess we should define what a statement is first. A statement is:  *a command that the programmer gives to the computer.* Like earlier in [CLOVERS](../CLOVERS)
 ```go
 fmt.Printf("Hello there you!!!")
 ```
