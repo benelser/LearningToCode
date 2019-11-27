@@ -16,6 +16,7 @@
 
 # MUST READ
 [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+<br />
 [The Ten Rules of a Zen Programmer](https://www.zenprogrammer.org/en/10-rules-of-a-zen-programmer.html)
 
 # YouTube Recording
