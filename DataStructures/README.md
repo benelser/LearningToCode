@@ -77,7 +77,6 @@ Then use them just like normal arrays. Use
 People["key"]="value" # to set value
 "${People[@]}" # to expand the values
 "${!People[@]}" # (notice the !) to expand the keys
-"${!People[@]}" # (notice the !) to expand the keys
 echo "${People[Benjamin]}" 
 # Loop through each (k) getting its value
 for person in "${!People[@]}"; do echo "$person - ${People[$person]}"; done
