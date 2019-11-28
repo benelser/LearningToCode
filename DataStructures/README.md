@@ -20,6 +20,36 @@ $Names.Add("Andrew") # add element
 $Names.Remove("Bob") # remove element
 ```
 
+### Go Implementation
+```go
+numbers := [6]int{1, 2, 3, 4, 5, 6} // fixed length array
+names := make([]string, 0) // inititalize slice with 0 slements
+names = append(names, "Benjamin") // append slice 
+len(names) // find how many elements are in the slice
+moreNames := []string{"Benjamin", "Andrew", "Bob"} // initialize 
+moreNames = append(moreNames[:1], moreNames[2:]...) // creates new copy of slice without the element at the 1 index
+```
+### Python Implementation
+```python
+names = ["Benjamin", "Andrew", "Bob"] # initialize
+names.append("Joe") // # add element
+names.remove("Benjamin") # remove element
+```
+
+### Bash Implementation
+```bash
+numbers=(1 2 3 4 5 6 7)
+echo ${#numbers[@]} # Calculate array size
+echo "${numbers[@]}" # get all elements of the array
+names=("Benjamin" "Andrew" "Bob")
+names+=("Joe") # space here matters especially with strings
+echo "${names[@]}" # get all elements of the array
+files=$(ls) # creates an array of files from the ls command output
+slicedNames=${names[@]:1:${#names[@]}} # Slice from index 2 to end of array 
+echo ${slicedNames[@]}
+unset names[0] # removes the element index 0
+```
+
 Arrays are unavoidable. Learn to love them.
 
 ## Hashtable / Map / Dictionary
