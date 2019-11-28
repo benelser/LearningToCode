@@ -36,6 +36,8 @@ What we did there was add Andrew to the $Names array along with removing Bob. We
 Defined: A hashtable || map || dictionary is a type of fast key lookup data structure that offers a flexible means of indexing into its individual elements.
 
 What you need to know: *they all store data in (Key, Value) pairs. All keys are unique there cannot be duplicates* 
+
+### Go Implementation
 ```go
 // inititalize map with (string, int) types
 People := make(map[string]int)
@@ -46,6 +48,8 @@ People["Bob"] = 20
 // Remove (key, value)
 delete(People, "Benjamin")
 ```
+
+### PowerShell Implementation
 ```powershell
 # initialize
 $People = @{
@@ -58,6 +62,8 @@ $People.Add("Joe", 44)
 # Remove (key, value)
 $People.Remove("Benjamin")
 ```
+
+### Python Implementation
 ```python
 # initialize dictionary
 People =	{
@@ -70,6 +76,8 @@ People["joe"] = 44
 # Remove (key, value)
 People.pop("Benjamin", None)
 ```
+
+### Bash (Version 4) Implementation
 ```bash
 # initialize BASH 4 syntax
 declare -A People=(["Benjamin"]=32 ["Andrew"]=19 ["Benjamin"]=20 )
@@ -77,16 +85,10 @@ declare -A People=(["Benjamin"]=32 ["Andrew"]=19 ["Benjamin"]=20 )
 Then use them just like normal arrays. Use 
 ```bash
 People["key"]="value" # to set value
-```
-```bash
 "${People[@]}" # to expand the values
-```
-```bash
 "${!People[@]}" # (notice the !) to expand the keys
-```
-```bash
-echo "${People[Benjamin]}"
-
+"${!People[@]}" # (notice the !) to expand the keys
+echo "${People[Benjamin]}" 
 # Loop through each (k) getting its value
 for person in "${!People[@]}"; do echo "$person - ${People[$person]}"; done
 ```
