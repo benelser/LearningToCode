@@ -47,7 +47,7 @@ echo "${names[@]}" # get all elements of the array
 files=$(ls) # creates an array of files from the ls command output
 slicedNames=${names[@]:1:${#names[@]}} # Slice from index 2 to end of array 
 echo ${slicedNames[@]}
-unset names[0] # removes the element index 0
+unset names[0] # removes the element at index 0
 ```
 
 Arrays are unavoidable. Learn to love them.
