@@ -17,7 +17,7 @@ $processes = Get-Process # array of system processes
 ### Defining an ArrayList using .net in PowerShell (My prefered way)
 [System.Collections.ArrayList]$Names = @("Ben", "Bob")
 
-<# Now that we created our array using the ArrayList we get the awesome ArrayList methods. If this is confusing stay tuned for a object oriented programming intro. For now take my word for it.#>
+<# Now that we created our array using the ArrayList we get the awesome ArrayList methods. If this is confusing stay tuned for a object oriented programming intro. For now take my word for it. #>
 
 $Names.Add("Andrew") # add element
 $Names.Remove("Bob") # remove element
