@@ -1,4 +1,4 @@
-# Data Structures
+# Data Structure[s]
 Defined: *is a data organization, management, and storage format that enables efficient access and modification. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.*
 
 In other words: *Data structures are what we use to store data that we want our program/script to consume.*
