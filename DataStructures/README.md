@@ -22,7 +22,7 @@ $Names.Remove("Bob") # remove element
 
 Arrays are unavoidable. Learn to love them.
 
-## Hashtables / Maps / Dictionaries 
+## Hashtable / Map / Dictionary
 Defined: A hashtable || map || dictionary is a type of fast key lookup data structure that offers a flexible means of indexing into its individual elements.
 
 What you need to know: *they all store data in (Key, Value) pairs. All keys are unique there cannot be duplicates* 
