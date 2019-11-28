@@ -26,3 +26,7 @@ This short paper is a great place to start for anyone thinking about learning to
 2. Functions
     * [Functions YouTube Recording](https://www.youtube.com/watch?v=9tppHGudMBo&feature=youtu.be)
     * [Functions Code](./Functions)
+
+2. Data Structures
+    * [Data Structures YouTube Recording]()
+    * [Data Structures Code](./DataStructures)
