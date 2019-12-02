@@ -10,6 +10,6 @@ for num in numbers:
     print(num)
 
 counter = 0
-while counter != 10:
+while counter != 12:
     print("Counter is: %d" % counter)
     counter += 2
