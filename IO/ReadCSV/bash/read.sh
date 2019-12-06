@@ -7,6 +7,6 @@ do
         COUNTER=$((COUNTER+=1))
         continue
     fi
-    # pipe $line into awk to processes 
+    # pipe $line into awk to process
     echo $line | awk -F ',' '{ print $1 " " $2 }'
 done < "../data.csv"
