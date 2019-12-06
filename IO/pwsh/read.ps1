@@ -1,5 +1,5 @@
 # Reads in data each line is type string
-$people = Get-Content -Path "./data.csv"
+$people = Get-Content -Path "../data.csv"
 $header = 0
 foreach ($p in $people) {
     if ($header -eq 0) {
