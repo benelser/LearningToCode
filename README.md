@@ -28,5 +28,7 @@ This short paper is a great place to start for anyone thinking about learning to
     * [Functions Code](./Functions)
 
 2. Data Structures
-    * [Data Structures YouTube Recording]()
     * [Data Structures Code](./DataStructures)
+
+2. Common IO (Input/Output) Operations
+    * [IO Code](./IO)
